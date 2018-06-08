@@ -13,59 +13,72 @@
     <nav class="navbar navbar-light bg-light">
         <span class="navbar-brand mb-0 h1">Pokemon RPG!</span>
     </nav>
-    <div id="players" class="row">
-        <!-- Pikachu -->
-        <div id="pikachu" class="card">
-            <img class="card-img-top" src="assets/images/pikachu.jpg" alt="Pikachu">
-            <div class="card-body">
-                <h5 class="card-title">Pikachu</h5>
+    <div class="container">
+        <div id="players" class="row">
+            <!-- Pikachu -->
+            <div id="pikachu" class="card active">
+                <img class="card-img-top" src="assets/images/pikachu.jpg" alt="Pikachu">
+                <div class="card-body">
+                    <h5 class="card-title">Pikachu</h5>
+                </div>
+                <div class="card-footer">
+                    <!-- Pikachu-HP -->
+                    <small id="pikachu-hp" class="text-muted"></small>
+                </div>
             </div>
-            <div class="card-footer">
-                <!-- Pikachu-HP -->
-                <small id="pikachu-hp" class="text-muted"></small>
+            <!-- Zapdos -->
+            <div id="zapdos" class="card active">
+                <img class="card-img-top" src="assets/images/zapdos.jpg" alt="Zapdos">
+                <div class="card-body">
+                    <h5 class="card-title">Zapdos!</h5>
+                </div>
+                <div class="card-footer">
+                    <!-- Zapdos-HP -->
+                    <small id="zapdos-hp" class="text-muted"></small>
+                </div>
+            </div>
+            <!-- Articuno -->
+            <div id="articuno" class="card active">
+                <img class="card-img-top" src="assets/images/articuno.png" alt="Articuno">
+                <div class="card-body">
+                    <h5 class="card-title">Articuno!</h5>
+                </div>
+                <div class="card-footer">
+                    <!-- Articuno-HP -->
+                    <small id="articuno-hp" class="text-muted"></small>
+                </div>
+            </div>
+            <!-- Moltres -->
+            <div id="moltres" class="card active">
+                <img class="card-img-top" src="assets/images/moltres.png" alt="Moltres">
+                <div class="card-body">
+                    <h5 class="card-title">Moltres!</h5>
+                </div>
+                <div class="card-footer">
+                    <!-- Moltres-HP -->
+                    <small id="moltres-hp" class="text-muted"></small>
+                </div>
             </div>
         </div>
-        <!-- Zapdos -->
-        <div id="zapdos" class="card">
-            <img class="card-img-top" src="assets/images/zapdos.jpg" alt="Zapdos">
-            <div class="card-body">
-                <h5 class="card-title">Zapdos!</h5>
-            </div>
-            <div class="card-footer">
-                <!-- Zapdos-HP -->
-                <small id="zapdos-hp" class="text-muted"></small>
-            </div>
-        </div>
-        <!-- Articuno -->
-        <div id="articuno" class="card">
-            <img class="card-img-top" src="assets/images/articuno.png" alt="Articuno">
-            <div class="card-body">
-                <h5 class="card-title">Articuno!</h5>
-            </div>
-            <div class="card-footer">
-                <!-- Articuno-HP -->
-                <small id="articuno-hp" class="text-muted"></small>
-            </div>
-        </div>
-        <!-- Moltres -->
-        <div id="moltres" class="card">
-            <img class="card-img-top" src="assets/images/moltres.png" alt="Moltres">
-            <div class="card-body">
-                <h5 class="card-title">Moltres!</h5>
-            </div>
-            <div class="card-footer">
-                <!-- Moltres-HP -->
-                <small id="moltres-hp" class="text-muted"></small>
-            </div>
-        </div>
+        <br>
+        <h3>Your Character</h3>
+        <br>
+        <div id="your-character" class="row"></div>
+        <br>
+        <h3>Enemies Available To Attack</h3>
+        <br>
+        <div id="enemies" class="row"></div>
+        <br>
+        <h3>Fight Section</h3>
+        <br>
+        <div id="fight" class="row"></div>
+        <br>
+        <h3>Defender</h3>
+        <br>
+        <div id="defender" class="row"></div>
+        <br>
+        <button id="restart">Restart</button>
     </div>
-    <br>
-    <div id="your-character" class="row">
-    </div>
-    <div id="enemies" class="row"></div>
-    <div id="fight"></div>
-    <div id="defender" class="row"></div>
-    <div id="restart"></div>
 
     <script src="assets/javascript/game.js"></script>
 </body>
